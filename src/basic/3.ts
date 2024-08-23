@@ -1,7 +1,6 @@
-type unionType: string | number;
-type switchType = 'enable' | 'disable';
+let strNumb: string | number;
 
-let variable: unionType; 
-let value: switchType;
+type SwitchType = 'enable' | 'disable';
+let value: SwitchType;
 
 export {};
